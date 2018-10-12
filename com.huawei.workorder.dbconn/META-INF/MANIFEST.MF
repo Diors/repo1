@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: workorder-dbconn
+Bundle-SymbolicName: com.huawei.workorder.dbconn
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: com.huawei.workorder.dbconn
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.mysql.cj;bundle-version="8.0.12",
+ org.mybatis.mybatis;bundle-version="3.4.6",
+ org.eclipse.osgi;bundle-version="3.13.100"
+Bundle-Activator: com.huawei.workorder.dbconn.DBConnPlugin
+Bundle-ActivationPolicy: lazy
