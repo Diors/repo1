@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="com.huawei.wotracker.service">
+   <implementation class="com.huawei.wotracker.service.internal.servlet.LoginService"/>
+   <service>
+      <provide interface="com.huawei.wotracker.service.servlet.ILoginService"/>
+   </service>
+</scr:component>

@@ -1,5 +1,5 @@
 @echo off
-set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_73
+rem set JAVA_HOME=C:\Program Files\Java\jdk1.8.0_73
 set CMD=java
 set CURRENT_DIR=%cd%
 

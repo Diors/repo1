@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Servlet
+Bundle-SymbolicName: com.huawei.wotracker.servlet;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: com.huawei.workorder.servlet
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.equinox.http.registry,
+ org.mybatis.mybatis;bundle-version="3.4.6",
+ org.eclipse.osgi;bundle-version="3.13.100"
+Import-Package: javax.servlet;version="3.1.0",
+ javax.servlet.http;version="3.1.0",
+ org.osgi.framework;version="1.9.0"
+Bundle-Activator: com.huawei.wotracker.servlet.WoServletPlugin
