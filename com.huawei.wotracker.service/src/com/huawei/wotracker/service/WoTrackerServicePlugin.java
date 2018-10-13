@@ -1,4 +1,4 @@
-package com.huawei.wotracker;
+package com.huawei.wotracker.service;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -34,8 +34,4 @@ public class WoTrackerServicePlugin implements BundleActivator {
 		
 	}
 	
-	private void dbconnect(BundleContext context) throws IOException {
-		
-	}
-
 }
