@@ -1,4 +1,4 @@
-package com.huawei.wotracker.service.internal;
+package com.huawei.wotracker;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,7 +12,7 @@ import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 import org.osgi.framework.ServiceReference;
 
-public class DBConnPlugin implements BundleActivator {
+public class WoTrackerServicePlugin implements BundleActivator {
 	public static BundleContext context;
 
 	@Override

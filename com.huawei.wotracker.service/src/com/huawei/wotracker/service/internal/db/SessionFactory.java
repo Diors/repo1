@@ -9,14 +9,14 @@ import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
-import com.huawei.wotracker.service.internal.DBConnPlugin;
+import com.huawei.wotracker.WoTrackerServicePlugin;
 
 public class SessionFactory {
 	
 	private static SqlSessionFactory sqlSessionFactory;
 	
 	public SessionFactory() {
-		URL resource = DBConnPlugin.context.getBundle().getResource("/resource/mybatis-config.xml");  
+		URL resource = WoTrackerServicePlugin.context.getBundle().getResource("/resource/mybatis-config.xml");  
 		try {
 			InputStream inputStream = resource.openStream(); 
 			sqlSessionFactory =

@@ -1,4 +1,4 @@
-package com.huawei.wotracker.service.servlet;
+package com.huawei.wotracker.service;
 
 public interface ILoginService {
 	public static String SUSS_LOGIN="LOGIN-000000";
